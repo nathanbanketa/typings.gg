@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --bgColor: #333;
+    --textPrimary: #000000;
+    --textSecondary: #667;
+    --primaryColor: #fd4;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color:var(--bgColor);
+    color: var(--textPrimary);
+    font-size: 1.4rem;
+}
+main{
+    width: 600px;
+    margin: 50px auto;
+}
+h1{
+    color:var(--primaryColor)
+}
+
+h1 svg{
+    width: 40px;
+    fill: var(--primaryColor);
+}
+#header{
+    display:flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+#buttons{
+    text-align: right;
+    margin-left: auto;
+}
+#info{
+    color:var(--primaryColor);
+}
+button{
+    text-align: center;
+    background:rgba(255,255,255,.2);
+    border: 0;
+    color: rgba(255,255,255,.5);
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div.word{
+    display:inline-block;
+    font-family: 'Roboto Mono',monospace;
+    margin: 0 5px;
+    
+}
